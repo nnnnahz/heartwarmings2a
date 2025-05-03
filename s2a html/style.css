@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  }
+.bg{
+    padding-top: 200px;
+    margin: -10px;
+    width: 1520px;
+    height:600px;
+    background-image: url("www.solidbackgrounds.com/images/1920x1080/1920x1080-black-solid-color-background.jpg");
+  }
+  body {
+    background-color: pink; /* 或使用 RGB, HEX 色碼 */
+  }
+  nav {
+    text-align: center; /* 讓導覽列置中 */
+    margin-top: 20px;
+  }
+  
+  nav a {
+    display: inline-block;
+    background-color: #ffc0cb; /* 淺粉紅色 */
+    color: white; /* 文字白色 */
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid #ff8da1;
+    transition: background-color 0.3s,border-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #ff8da1; /* 深一點的粉紅色 */
+  }
